@@ -1,0 +1,121 @@
+@media screen and (max-width:800px) {
+    nav {
+        position: sticky;
+        z-index: 3;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.6s ease;
+    }
+    .nav-links {
+        background-color: #ffffff;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(150px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -20%);
+        transition: all 1.5s ease-out;
+        pointer-events: none;
+    }
+    .nav-links.open {
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .nav-links li:nth-child(1) {
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2) {
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3) {
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4) {
+        transition: all 0.5s ease 0.7s;
+    }
+    .nav-links li:nth-child(5) {
+        transition: all 0.5s ease 0.8s;
+    }
+    .nav-links li:nth-child(6) {
+        transition: all 0.5s ease 0.9s;
+    }
+    .nav-links li:nth-child(7) {
+        transition: all 0.5s ease 1s;
+    }
+    li.fade {
+        opacity: 1;
+    }
+    body {
+        background-position: initial;
+    }
+
+
+
+    /* <!-- first-section --> */
+
+    .first-box{
+        width: 100%;
+    }
+    .first-left{
+        flex-basis: 100%;
+        text-align: left;
+        padding-left: 80px;
+    }
+
+    .first-left-items .p-primary{
+        
+        font-size: 1.3rem;
+        font-weight: 100;
+        letter-spacing: 3px;
+        
+    }
+    .first-left-items .h1-primary{
+        
+        font-size: 2.5rem;
+       
+        margin-bottom: 2rem;
+    }
+    .first-left-items .para-primary{
+        
+        font-size: 1.3rem;
+        font-weight: 100;
+      
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin-bottom: 2rem;
+    }
+    
+    .btn {
+        
+        padding: 0.5rem 4rem;
+       
+        font-size: 1.3rem;
+        cursor: pointer;
+        
+    }
+    
+
+    .first-right{
+        flex-basis: 100%;
+        
+    }
+
+    .first-right-img{
+        width: 100vw;
+    
+    }
+    
+
+
+}
