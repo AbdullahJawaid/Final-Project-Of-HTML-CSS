@@ -37,7 +37,7 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     margin: 0 0.7vw;
     text-transform: uppercase;
     color: #000000;
@@ -64,8 +64,8 @@ nav ul li a:hover::after {
     background-color: #ec563d;
     border: none;
     border-radius: 20px;
-    padding: 0.4rem 2rem;
-    font-size: 12px;
+    padding: 0.4rem 3rem;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -148,7 +148,7 @@ nav ul li a:hover::after {
     margin-bottom: 2rem;
 }
 
-.btn {
+.first-left-items .btn {
     color: white;
     padding: 0.5rem 4rem;
     text-align: center;
@@ -160,7 +160,7 @@ nav ul li a:hover::after {
     margin-bottom: 2rem;
 }
 
-.btn:hover {
+.first-left-items .btn:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border: 3px solid black;
@@ -180,4 +180,57 @@ nav ul li a:hover::after {
 
 }
 
+/* second-section */
 
+.second-section{
+    width: 100%;
+    padding: 7rem 0;
+}
+.second-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.second-col{
+    flex-basis: 25%;
+    padding: 2rem;
+    margin-bottom: 30px;    
+}
+.second-col .second-svg{
+    border-radius: 100%;
+    background-color: #ec563d;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+
+}
+.second-col .h1-primary{
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.second-col .second-img{
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+}
+.second-col .p-primary{
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+.second-col .upper{
+    margin-bottom: 12vw;
+}
+.second-col .down{
+    margin-top: 15vw;
+}

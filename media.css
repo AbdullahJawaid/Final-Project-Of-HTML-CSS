@@ -63,7 +63,6 @@
 
 
     /* <!-- first-section --> */
-
     .first-box{
         width: 100%;
     }
@@ -78,36 +77,38 @@
         font-size: 1.3rem;
         font-weight: 100;
         letter-spacing: 3px;
+     
         
     }
     .first-left-items .h1-primary{
         
         font-size: 2.5rem;
-       
         margin-bottom: 2rem;
+     
     }
     .first-left-items .para-primary{
         
         font-size: 1.3rem;
         font-weight: 100;
-      
         letter-spacing: 1px;
         line-height: 40px;
         margin-bottom: 2rem;
+    
     }
     
     .btn {
         
         padding: 0.5rem 4rem;
-       
         font-size: 1.3rem;
         cursor: pointer;
+        
         
     }
     
 
     .first-right{
         flex-basis: 100%;
+ 
         
     }
 
@@ -115,7 +116,98 @@
         width: 100vw;
     
     }
-    
 
+    /* second-section */
+    .second-row{
+        width: 100%;
+    }
+    .second-col{
+        flex-basis: 100%;
+    }
+    .second-col .second-svg{
+        margin-left: 20rem;
+
+    }
+    .second-col .h1-primary{
+
+    }
+    .second-col .down{
+        margin-top: 0;
+    }
+    .second-col .upper{
+        margin-bottom: 3rem;
+    }
+    .second-col .second-img{
+        width: 400px;
+        border-radius: 50%;
+        height: 400px;
+        margin-left:100px;
+        /* display: none; */
+    }
+
+}
+
+
+@media screen and (max-width:1030px) {
+/* 
+    .second-col{
+        flex-basis: 0%;
+    } */
+
+}
+
+@media screen and (max-width:450px) {
+        /* <!-- first-section --> */
+
+        .first-left{
+            padding-left: 20px;
+        }
+        .first-left-items .p-primary{
+            font-size: 1rem;
+
+
+        }
+        .first-left-items .h1-primary{
+            font-size: 2rem;
+         
+        }
+        .first-left-items .para-primary{
+            font-size: 1rem;
+            
+        }
+        
+        .first-left-items .btn {
+            padding: 0.5rem 2.5rem;
+            font-size: 1rem;
+      
+            
+        }
+            /* second-section */
+        .second-col .second-svg{
+            margin-left: 6rem;
+    
+        }
+        .second-col .h1-primary{
+
+    
+        }
+        
+        .second-col .p-primary{
+            font-size: 1rem;
+        }
+        /* .second-col .down{
+            margin-top: 0;
+        }
+        .second-col .upper{
+            margin-bottom: 3rem;
+        } */
+        .second-col .second-img{
+            width: 250px;
+            border-radius: 50%;
+            height: 250px;
+            margin-left:-1px;
+            /* display: none; */
+        }
+        
 
 }
