@@ -1,3 +1,75 @@
+@media screen and (max-width:1050px) {
+
+    .second-change {
+        flex-basis: 100%;
+
+    }
+
+    .second-change .second-svg {
+        margin-bottom: 20px;
+        margin-left: 350px;
+
+    }
+
+    .second-change .upper {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    .second-change .p-primary {
+        text-align: center;
+        margin-bottom: 2rem;
+
+    }
+
+    /* Third-section */
+    .third-left .third-img {
+        position: relative;
+        top: 10vh;
+        right: 2rem;
+        width: 60vw;
+    }
+
+    /* <!-- //fifth-section// --> */
+
+    .fifth-row {
+        width: 90%;
+    }
+
+    .fifth-col .number .svg-primary {
+        padding: 0.5rem 1rem;
+        width: 60%
+    }
+
+    .fifth-col .heading .svg-primary {
+        font-size: 1.5rem;
+        font-weight: 200;
+        padding: 1rem 0rem;
+    }
+
+    .fifth-col .paragraph .p-primary {
+        font-size: 1rem;
+        font-weight: 200;
+        font-style: italic;
+        padding: 1rem 0.5rem;
+        line-height: 25px;
+        letter-spacing: 1px;
+
+    }
+    /* Eight-section */
+    .eight-section-box{
+        position: absolute;
+        top: 85%;
+        left: 30%;
+        
+    }
+  
+    
+
+
+}
+
 @media screen and (max-width:800px) {
     nav {
         position: sticky;
@@ -224,72 +296,41 @@
         font-size: 1rem;
 
     }
+     /* Eight-section */
+     .eight-section-box{
+        position: absolute;
+        top: 84.5%;
+        left: 30%;
+        width: 50%;
+    }
+    .eight-section-box .h1-primary{
+        font-size: 2rem;
+        
+    }
 
-}
 
+    /* .<!-- //Nine-section// --> */
 
-@media screen and (max-width:1050px) {
-
-    .second-change {
+    .nine-left-items{
         flex-basis: 100%;
-
     }
-
-    .second-change .second-svg {
-        margin-bottom: 20px;
-        margin-left: 350px;
-
+    .nine-right-item{
+        flex-basis: 100%;
+        margin: auto;
     }
-
-    .second-change .upper {
-        width: 100%;
-        margin-bottom: 10px;
-
-    }
-
-    .second-change .p-primary {
-        text-align: center;
-        margin-bottom: 2rem;
-
-    }
-
-    /* Third-section */
-    .third-left .third-img {
-        position: relative;
-        top: 10vh;
-        right: 2rem;
-        width: 60vw;
-    }
-
-    /* <!-- //fifth-section// --> */
-
-    .fifth-row {
-        width: 90%;
-    }
-
-    .fifth-col .number .svg-primary {
-        padding: 0.5rem 1rem;
-        width: 60%
-    }
-
-    .fifth-col .heading .svg-primary {
+    .nine-right-des .p-primary{
+        padding: 1rem;
+        text-align:left;
         font-size: 1.5rem;
-        font-weight: 200;
-        padding: 1rem 0rem;
+        line-height: 40px;
+        color: #000000;
+        margin-top: 5rem;
+    
+    
     }
-
-    .fifth-col .paragraph .p-primary {
-        font-size: 1rem;
-        font-weight: 200;
-        font-style: italic;
-        padding: 1rem 0.5rem;
-        line-height: 25px;
-        letter-spacing: 1px;
-
-    }
-
-
 }
+
+
 
 @media screen and (max-width:450px) {
     /* <!-- first-section --> */
@@ -337,7 +378,7 @@
         border-radius: 50%;
         height: 250px;
         margin-left: -1px;
-    
+
     }
 
     /* Third-section */
@@ -362,7 +403,7 @@
         left: 10rem;
         padding-left: 2rem;
         flex-basis: 100%;
-        display: none;
+
 
 
     }
@@ -415,7 +456,65 @@
 
     }
 
+    /* * sixth-section */
 
 
+    .six-col {
+        flex-basis: 100%;
+    }
+
+    .six-col .h1-primary {
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+
+
+    .six-col .btn {
+        color: white;
+        padding: 0.5rem 2rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1rem;
+        cursor: pointer;
+        background: #ec563d;
+        border: 3px solid #ec563d;
+        margin-bottom: 2rem;
+    }
+
+    .six-col .btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 3px solid black;
+    }
+     /* Eight-section */
+     .eight-section-box{
+        position: absolute;
+        top: 88%;
+        left: 50%;
+        width: 80%;
+    }
+    .eight-section-box .h1-primary{
+
+        font-size: 1.5rem;
+       
+    }
+    .eight-section-box .p-primary{
+        font-size: 1rem;
+        line-height: 25px;
+    
+    
+    }
+    .eight-section-box .btn{
+        color: white;
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+      
+    }
+      
 
 }
+
+
+
