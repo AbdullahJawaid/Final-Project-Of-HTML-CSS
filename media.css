@@ -39,11 +39,11 @@
 
     .fifth-col .number .svg-primary {
         padding: 0.5rem 1rem;
-        width: 60%
+        width: 35%
     }
 
     .fifth-col .heading .svg-primary {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 200;
         padding: 1rem 0rem;
     }
@@ -57,15 +57,16 @@
         letter-spacing: 1px;
 
     }
+
     /* Eight-section */
-    .eight-section-box{
+    .eight-section-box {
         position: absolute;
         top: 85%;
         left: 30%;
-        
+
     }
-  
-    
+
+
 
 
 }
@@ -206,30 +207,44 @@
     }
 
     /* second-section */
+    /* second-section */
     .second-row {
         width: 100%;
     }
 
     .second-col {
+        /* border: 2px solid red; */
         flex-basis: 100%;
+        padding: 2rem;
+        margin-bottom: 30px;
     }
 
-    .second-col .second-svg {
-        margin-left: 20rem;
+    .second-des {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
 
     }
 
-    .second-col .h1-primary {
-        text-align: center;
-        margin-bottom: -2rem;
+    .down {
+        margin-top: 2px;
+    }
+
+    .upper {
+        margin-bottom: 20px;
 
     }
 
-    .second-col .second-img {
-        width: 400px;
+    .second-img .second-image {
+        width: 50vw;
+        height: 70vh;
         border-radius: 50%;
-        height: 400px;
-        margin-left: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
 
     }
 
@@ -296,37 +311,41 @@
         font-size: 1rem;
 
     }
-     /* Eight-section */
-     .eight-section-box{
+
+    /* Eight-section */
+    .eight-section-box {
         position: absolute;
         top: 84.5%;
         left: 30%;
         width: 50%;
     }
-    .eight-section-box .h1-primary{
+
+    .eight-section-box .h1-primary {
         font-size: 2rem;
-        
+
     }
 
 
     /* .<!-- //Nine-section// --> */
 
-    .nine-left-items{
+    .nine-left-items {
         flex-basis: 100%;
     }
-    .nine-right-item{
+
+    .nine-right-item {
         flex-basis: 100%;
         margin: auto;
     }
-    .nine-right-des .p-primary{
+
+    .nine-right-des .p-primary {
         padding: 1rem;
-        text-align:left;
+        text-align: left;
         font-size: 1.5rem;
         line-height: 40px;
         color: #000000;
         margin-top: 5rem;
-    
-    
+
+
     }
 }
 
@@ -363,22 +382,16 @@
     }
 
     /* second-section */
+    /* second-section */
     .second-col .second-svg {
-        margin-left: 7rem;
+        margin-left: 2rem;
 
     }
 
 
-    .second-col .p-primary {
-        font-size: 1rem;
-    }
-
-    .second-col .second-img {
-        width: 250px;
-        border-radius: 50%;
-        height: 250px;
-        margin-left: -1px;
-
+    .second-text {
+        font-size: 0.9rem;
+        text-align: left;
     }
 
     /* Third-section */
@@ -430,14 +443,11 @@
         height: 400vh;
     }
 
-    .fifth-row {
-        width: 100%;
 
-    }
 
     .fifth-col {
-        height: 370px;
-        flex-basis: 100%;
+        height: 300px;
+        flex-basis: 80%;
     }
 
     .fifth-col .number .svg-primary {
@@ -488,33 +498,34 @@
         color: rgb(255, 255, 255);
         border: 3px solid black;
     }
-     /* Eight-section */
-     .eight-section-box{
+
+    /* Eight-section */
+    .eight-section-box {
         position: absolute;
-        top: 88%;
+        top: 82%;
         left: 50%;
         width: 80%;
     }
-    .eight-section-box .h1-primary{
 
-        font-size: 1.5rem;
-       
-    }
-    .eight-section-box .p-primary{
+    .eight-section-box .h1-primary {
+
         font-size: 1rem;
+
+    }
+
+    .eight-section-box .p-primary {
+        font-size: 0.7rem;
         line-height: 25px;
-    
-    
+
+
     }
-    .eight-section-box .btn{
+
+    .eight-section-box .btn {
         color: white;
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 1rem;
         font-size: 1rem;
-      
+
     }
-      
+
 
 }
-
-
-
